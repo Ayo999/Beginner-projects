@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-radius previewer</title>
+    <link rel="stylesheet" href="border-radius-previewer.css">
+</head>
+<body>
+    <input type="text" data-border-radius="top-left-border-radius" value="0">
+    <input type="text" data-border-radius="top-right-border-radius" value="0">
+    <input type="text" data-border-radius="bottom-left-border-radius" value="0">
+    <input type="text" data-border-radius="bottom-right-border-radius" value="0">
+
+    <div class="outer-square" data-outer-square>
+        <div class="inner-square" data-inner-square>
+            <div data-output="top-left-border-radius"></div>
+            <div data-output="top-right-border-radius"></div>
+            <div data-output="bottom-left-border-radius"></div>
+            <div data-output="bottom-right-border-radius"></div>
+        </div>
+    </div>
+    <script src="border-radius-previewer.js"></script>
+</body>
+</html>

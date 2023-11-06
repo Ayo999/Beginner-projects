@@ -1,0 +1,33 @@
+body, .outer-square{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-square{
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.outer-square{
+    border: 1px solid #000000;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(211, 200, 200);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 100px;
+}
+
+input{
+    width: 10px;
+}
+
+div{
+    margin-left: 10px;
+}
